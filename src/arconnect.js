@@ -1,6 +1,5 @@
-
 import Arweave from 'arweave';
-import ArConnect from '@arconnect/web';
+import ArConnect from 'arconnect';  // Corrected package name
 
 export const connectWallet = async () => {
   await ArConnect.connect(["ACCESS_ADDRESS", "SIGN_TRANSACTION"]);
